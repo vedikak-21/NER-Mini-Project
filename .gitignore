@@ -11,6 +11,8 @@ __pycache__/
 # Environment variables / secrets
 .env
 .env.*
+.streamlit/
+.streamlit/secrets.toml
 
 # Logs and temp files
 *.log
@@ -29,5 +31,7 @@ __pycache__/
 .DS_Store
 Thumbs.db
 
-# Optional: keep only project source files
-# If you later add data/model artifacts, add them here explicitly.
+# Keep project source files tracked
+!app.py
+!requirements.txt
+!README.md
