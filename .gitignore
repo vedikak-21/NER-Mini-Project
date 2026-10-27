@@ -1,0 +1,33 @@
+# Virtual environments
+venv/
+.venv/
+
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Environment variables / secrets
+.env
+.env.*
+
+# Logs and temp files
+*.log
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+
+# IDE/editor files
+.vscode/
+.idea/
+*.code-workspace
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Optional: keep only project source files
+# If you later add data/model artifacts, add them here explicitly.
